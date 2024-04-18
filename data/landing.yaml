@@ -37,13 +37,13 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "/docs/quickstart/#create-a-new-lotus-docs-site"
+    url: "docs/"
   cta2Button:
     icon: construction
     btnText: "In Development"
     url: "https://github.com/oasci/lotusdocs"
 
-  info: "**Open Source** MIT Licensed."
+  info: "**Open Source** Apache 2.0 Licensed."
 
 # Feature Grid
 featureGrid:
