@@ -41,7 +41,7 @@ hero:
   cta2Button:
     icon: construction
     btnText: "In Development"
-    url: "https://github.com/oasci/lotusdocs"
+    url: "https://github.com/oasci/lilydocs"
 
   info: "**Open Source** Apache 2.0 Licensed."
 

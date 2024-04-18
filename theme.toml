@@ -2,10 +2,10 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "Lily Docs"
-license = "MIT"
-licenselink = "https://github.com/oasci/lotusdocs/release/LICENSE"
+license = "Apache-2.0"
+licenselink = "https://gitlab.com/oasci/lilydocs/-/blob/main/LICENSE.md"
 description = "A lightweight, modern documentation theme for Hugo"
-homepage = "https://github.com/oasci/lotusdocs"
+homepage = "https://gitlab.com/oasci/lilydocs"
 demosite = "https://lotusdocs.dev/docs/"
 tags = ["documentation", "responsive", "bootstrap", "minimal", "secure", "search", "customizable", "modern","dark", "dark mode", "landing page"]
 features = ["security aware", "fast by default", "seo-ready","custom shortcodes", "prismjs syntax highlighting", "deploy to vercel", "flexsearch static search", "docsearch", "landing page layouts", "dark mode"]
