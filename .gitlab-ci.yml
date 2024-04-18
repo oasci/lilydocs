@@ -1,0 +1,32 @@
+image: registry.gitlab.com/pages/hugo/hugo_extended:0.124.1
+
+variables:
+  HUGO_ENV: production
+
+default:
+  tags:
+    - docker
+    - linux
+  before_script:
+    - apk add --no-cache go curl bash nodejs
+
+test:
+  tags:
+    - docker
+    - linux
+  script:
+    - hugo
+  rules:
+    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
+
+pages:
+  tags:
+    - docker
+    - linux
+  script:
+    - hugo
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
