@@ -161,10 +161,16 @@ Modify the above front matter options to suit your needs.
 
 Now that you've created some sample content you can preview your new Lily Docs site using the `huge server` command:
 
-```shell
+```bash
 hugo server -D
 ```
 
-Navigate to [https://localhost:1313/docs/](https://localhost:1313/docs/) and you should see a card link to the **Example Page** created earlier:
+Navigate to [http://localhost:1313/docs/](http://localhost:1313/docs/) and you should see a card link to the **Example Page** created earlier.
 
-![New Lily Docs Site - Example Content](https://res.cloudinary.com/lotuslabs/image/upload/v1690992310/Lotus%20Docs/images/lotus_docs_new_site_and_content_module_setup_oiuyex.png)
+If you are making changes to the theme, you can use
+
+```bash
+hugo server --disableFastRender
+```
+
+to have hugo do a full rebuild upon changes.
