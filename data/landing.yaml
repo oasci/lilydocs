@@ -37,11 +37,11 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "docs/"
+    url: "/docs/"
   cta2Button:
     icon: construction
     btnText: "In Development"
-    url: "https://github.com/oasci/lilydocs"
+    url: "https://gitlab.com/oasci/lilydocs"
 
   info: "**Open Source** Apache 2.0 Licensed."
 
